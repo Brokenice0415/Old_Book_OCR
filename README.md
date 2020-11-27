@@ -2,7 +2,7 @@
 
 > 环境：Window10	python3.7.1	PyCharm Community 2019.3.2
 
-图片文件./img
+图片文件./img 在运行getImg后自动创建
 
 pdf文件./pdf
 
