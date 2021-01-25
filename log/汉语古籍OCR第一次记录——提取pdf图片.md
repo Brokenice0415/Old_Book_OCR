@@ -1,7 +1,5 @@
 ## 汉语古籍OCR第一次记录——提取pdf图片
 
-[toc]
-
 ### 提取pdf图片
 
 #### 使用fitz
@@ -27,17 +25,17 @@ def pdf2img(pdfPath, imgPath, zoomX, zoomY, rotationAngle):
 
 执行提取66张pdf图片，所花时间很长
 
-<img src="\img\fitz_time.png" alt="fitz_time" style="zoom:50%;" />
+<img src="\img\1\fitz_time.png" alt="fitz_time" style="zoom:50%;" />
 
 平均13.6s一张
 
-![fitz_img](\img\fitz_img.png)
+![fitz_img](\img\1\fitz_img.png)
 
 **其中有黑色的是电脑显示错误，实际图片显示正常**
 
 提取得到的图片66张共1.96GB，平均30MB一张图片，图片属性如下
 
-<img src="\img\fitz_detail.png" alt="fitz_detail" style="zoom:50%;" />
+<img src="\img\1\fitz_detail.png" alt="fitz_detail" style="zoom:50%;" />
 
 #### 使用PyPDF
 
@@ -102,17 +100,17 @@ def pdf2img2(pdfPath, imgPath):
 
 同样也是执行提取66张pdf图片，解决问题后执行时间相比fitz是他的4427分之一
 
-<img src="\img\pypdf_time.png" alt="pypdf_time" style="zoom:50%;" />
+<img src="\img\1\pypdf_time.png" alt="pypdf_time" style="zoom:50%;" />
 
 显然PyPDF提取图片在速度上更优
 
-![pypdf_img](\img\pypdf_img.png)
+![pypdf_img](\img\1\pypdf_img.png)
 
 但是他读取的都是jpg格式的图片
 
 66张图片共32.6MB，平均一张500KB
 
-<img src="\img\pypdf_detail.png" alt="pypdf_detail" style="zoom:50%;" />
+<img src="\img\1\pypdf_detail.png" alt="pypdf_detail" style="zoom:50%;" />
 
 可以看到在图片像素上相比fitz差了不少，但是我认为这些像素够用了
 
