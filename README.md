@@ -1,4 +1,4 @@
-# XRT：汉语古籍のOCR
+# 汉语古籍のOCR
 
 > 环境：Window10	python3.7.1	PyCharm Community 2019.3.2
 
