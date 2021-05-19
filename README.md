@@ -2,11 +2,13 @@
 
 > 环境：Window10	python3.7.1	PyCharm Community 2019.3.2
 
-图片文件./img 在运行getImg后自动创建
+图片文件./img
 
 pdf文件./pdf
 
 代码文件暂定放在根目录
+
+聚类实现代码./cluster
 
 进度报告文件./log
 
